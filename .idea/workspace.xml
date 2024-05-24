@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e5dd4e-6bdc-4b43-8716-21e7841fe75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Export sekoia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.~lock.0man_alerte_sekoia.csv#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0man_alerte_sekoia.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0man_assets_sekoia.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_export_sekoia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp (copy).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp.json" afterDir="false" />
+    <list default="true" id="07e5dd4e-6bdc-4b43-8716-21e7841fe75e" name="Changes" comment="it works!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.0man_alerte_sekoia.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0man_alerte_sekoia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/0man_alerte_sekoia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0man_assets_sekoia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/0man_assets_sekoia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_export_sekoia.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_export_sekoia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/backthehox/test",
+    "accountId": "f9b50855-cca1-4e18-9c19-071ce079d07b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -47,10 +46,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main_export_sekoia.executor": "Debug",
+    "Python.main_export_sekoia.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "/home/olivier/PycharmProjects/Export sekoia",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -98,10 +98,21 @@
       <option name="presentableId" value="Default" />
       <updated>1715191148738</updated>
     </task>
+    <task id="LOCAL-00001" summary="it works!">
+      <option name="closed" value="true" />
+      <created>1715550694411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715550694411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="it works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="it works!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
