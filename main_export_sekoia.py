@@ -8,13 +8,13 @@ from io import StringIO
 data = []
 nom_csv = "0man_alerte_sekoia.csv"
 asset_csv=  "0man_assets_sekoia.csv"
-token = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjUzNzYyMiwianRpIjoiZDhkOWQ1NmMtZDk2NC00M2YwLTkzYzctYWFiOTg4YzgyMTFjIiwidHlwZSI6ImFjY2VzcyIsImlkZW50aXR5IjoiYXBpa2V5OjRlZGZkMjAwLWI5NDUtNGVkMC04ZGI2LWMzY2E2Y2NjMTczOSIsIm5iZiI6MTcwNjUzNzYyMiwiY3NyZiI6IjkwYzYyNjFiLTA2MTUtNGZjYi1iNTEzLTY0MGFmZmNlNWM1MSJ9.kB33QY5FBYbuXiniXQkI6ZEv9PAaGGfTUx6iyrgcuF7syJ9DhqKSeV3LUJakS_XcRQjFn3UzNsY1ygLbGBEsBw"
+token = input("entrez la clef d'api\n")
+nbl= int(input ("entrez le nombre d'alerte a extraire\n"))
 base = "https://api.sekoia.io/v1/sic/alerts?sort=created_at&direction=desc&offset="
 baseA = "https://api.sekoia.io/v1/asset-management/assets/"
 headers = {
     'Authorization': 'Bearer ' + token
 }
-nbl = 103  # nombre d'alerte à extraire
 
 #initialisation
 alertes= []
@@ -65,7 +65,7 @@ csvfile.close()
 csvfile = open(asset_csv, 'w', newline='')
 csv_writer = csv.writer(csvfile, delimiter='|')
 #extraction des actifs
-for i in range(1,3):
+for i in range(1,len(dictass)):
     str_url = baseA + dictass[i]
     response = requests.get(str_url, headers=headers)
     assets= response.json()
